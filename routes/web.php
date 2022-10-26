@@ -24,5 +24,10 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::resource('/leads', LeadsController::class);
 Route::resource('/partners', PartnersController::class);
+Route::view('/propuesta', 'propuesta');
+Route::view('/oficinas', 'oficinas');
+Route::view('/calendario', 'calendario');
+Route::view('/perfil', 'perfil');
+Route::view('/configuracion', 'configuracion');
 
 

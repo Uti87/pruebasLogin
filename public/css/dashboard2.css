@@ -1,0 +1,63 @@
+:root {
+    --primary: #3d454e;
+    --light: #ffffff;
+    --grey: #efefef;
+}
+
+body{
+    overflow: hidden;
+    font-weight: 300;
+    
+}
+.menu a {
+font-size: 1em;
+color: white
+}
+.bg-primary{
+    background-color: var(--primary) !important;
+}
+.bg-light{
+    background-color: var(--light) !important;
+}
+i{
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+hr{
+    color: white;
+    margin: 0;
+}
+#sidebar-container{
+    min-height: 100vh
+    
+}
+#sidebar-container .logo{
+    padding: .875rem .875rem;
+}
+
+#sidebar-container .menu{
+    width: 15rem;
+}
+.btn-search{
+    right: 0;
+}
+.avatar{
+    max-width: 35px;
+    margin-right: 5px;
+}
+
+.logo{
+    max-width: 13rem;
+}
+.contenido{
+    overflow: scroll;
+    margin-top: 30px;
+    height: 1000px;
+    background-color: #f5f6f8;
+}
